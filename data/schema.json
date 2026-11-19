@@ -1,0 +1,79 @@
+{
+  "format": "UTF-8 NDJSON",
+  "datasets": {
+    "rights": {
+      "description": "土地用途开发权益",
+      "fields": {
+        "right_id": "string",
+        "parcel": "string",
+        "holder": "string",
+        "use": "string",
+        "total_capacity": "string",
+        "effective": "string",
+        "kind": "string",
+        "reference": "any"
+      }
+    },
+    "scopes": {
+      "description": "来源物理范围",
+      "fields": {
+        "scope_id": "string",
+        "coverage": "array"
+      }
+    },
+    "phase_claims": {
+      "description": "分期权益占用申报",
+      "fields": {
+        "claim_id": "string",
+        "phase": "string",
+        "right_id": "string",
+        "scope_id": "string",
+        "capacity_area": "string",
+        "effective": "string"
+      }
+    },
+    "buildings": {
+      "description": "实际建设及计量",
+      "fields": {
+        "building": "string",
+        "scope_id": "string",
+        "use": "string",
+        "capacity_area": "string",
+        "saleable_area": "string",
+        "delivered_home_area": "string",
+        "completion": "any"
+      }
+    },
+    "assignments": {
+      "description": "楼栋分期归属",
+      "fields": {
+        "record_id": "string",
+        "building": "string",
+        "phase": "string",
+        "valid_from": "string",
+        "valid_to": "any",
+        "received": "string"
+      }
+    },
+    "permits": {
+      "description": "住房销售许可范围",
+      "fields": {
+        "permit_id": "string",
+        "scope_id": "string",
+        "building": "string",
+        "use": "string",
+        "saleable_area": "string",
+        "valid_from": "string"
+      }
+    },
+    "land_consideration": {
+      "description": "宗地对价事实",
+      "fields": {
+        "payment_id": "string",
+        "parcel": "string",
+        "amount_cents": "integer",
+        "date": "string"
+      }
+    }
+  }
+}

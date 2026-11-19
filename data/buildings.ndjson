@@ -1,0 +1,2 @@
+{"building": "B1", "capacity_area": "6000", "completion": null, "delivered_home_area": "0", "saleable_area": "5700", "scope_id": "S-A", "use": "residential"}
+{"building": "B2", "capacity_area": "1000", "completion": "2026-10-01", "delivered_home_area": "0", "saleable_area": "0", "scope_id": "S-B", "use": "facility"}

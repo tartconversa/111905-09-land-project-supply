@@ -1,0 +1,3 @@
+{"coverage": [{"atom": "A", "fraction": "1/1"}], "scope_id": "S-A"}
+{"coverage": [{"atom": "B", "fraction": "1/1"}], "scope_id": "S-B"}
+{"coverage": [{"atom": "A", "fraction": "1/1"}, {"atom": "B", "fraction": "1/1"}], "scope_id": "S-AB"}

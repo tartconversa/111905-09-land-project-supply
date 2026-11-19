@@ -1,0 +1,47 @@
+{
+  "description": "本地合成资料；不含真实个人或机构数据。",
+  "files": [
+    {
+      "path": "rights.ndjson",
+      "dataset": "rights",
+      "rows": 3,
+      "sha256": "f64754c7f821ab8ec89d6a0a0cceb3beb732e1ddfc057a16fb4858fd8b412761"
+    },
+    {
+      "path": "scopes.ndjson",
+      "dataset": "scopes",
+      "rows": 3,
+      "sha256": "08909c713be138494359e813f0fabc5d23f9b52398d9aa490036079112765b8e"
+    },
+    {
+      "path": "phase_claims.ndjson",
+      "dataset": "phase_claims",
+      "rows": 3,
+      "sha256": "c0973e9866a1c771c6acf94d6c77a3e6206b06088b1ad1139a7d47dc1c7217a7"
+    },
+    {
+      "path": "buildings.ndjson",
+      "dataset": "buildings",
+      "rows": 2,
+      "sha256": "3c46a35e6b8b77d89a18c68cab1b2d57b713aa2dc19b5188f863dc5dba2680cd"
+    },
+    {
+      "path": "assignments.ndjson",
+      "dataset": "assignments",
+      "rows": 3,
+      "sha256": "146f792d572aea2551bd32720e4f78dbf2145ef1ddc37330bd89d6e4bf40e02a"
+    },
+    {
+      "path": "permits.ndjson",
+      "dataset": "permits",
+      "rows": 1,
+      "sha256": "f68ff49b18617dd2ad7e9d5ad0d66eef020ac96441cf6c7295927d3f5b2af696"
+    },
+    {
+      "path": "land_consideration.ndjson",
+      "dataset": "land_consideration",
+      "rows": 2,
+      "sha256": "9be966ed4dd1de7530e465da4c9dd785bc1b4c81f31f5410e1a30b210380d390"
+    }
+  ]
+}
