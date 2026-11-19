@@ -4,7 +4,7 @@
 
 area_sqm为平方米十进制字符串；capacity_area、saleable_area、delivered_home_area为不同指标，不能自动互换。amount_cents是人民币分。
 
-rights记录宗地在用途与有效期内的开发额度，amend引用原权益并用新的total_capacity明确替代总额，transfer仅转移coverage中的部分，不新增额度。
+rights记录宗地在用途与有效期内的开发额度，amend引用原权益并用新的total_capacity明确替代总额。right_transfers引用原right_id，from_holder/to_holder为转出转入方，scope_id及share限定转让范围，转让不新增额度；valid_from/valid_to限定持有期。
 
 scope_id是来源对物理范围的声明，coverage是独立范围原子的列表，每个原子含atom及fraction。相同atom重复主张属于覆盖重叠；份额在各原子内计算，不跨原子平均。
 
@@ -42,3 +42,6 @@ phase_claim只表示项目对权益范围的申报，buildings记录实际楼栋
 
 宗地对价事实。字段：payment_id (string)、parcel (string)、amount_cents (integer)、date (string)。
 
+### right_transfers
+
+联合开发部分权益转让。字段：transfer_id (string)、right_id (string)、from_holder (string)、to_holder (string)、scope_id (string)、share (string)、valid_from (string)、valid_to (any)、received (string)。

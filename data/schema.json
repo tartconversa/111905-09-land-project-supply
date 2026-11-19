@@ -74,6 +74,20 @@
         "amount_cents": "integer",
         "date": "string"
       }
+    },
+    "right_transfers": {
+      "description": "联合开发部分权益转让",
+      "fields": {
+        "transfer_id": "string",
+        "right_id": "string",
+        "from_holder": "string",
+        "to_holder": "string",
+        "scope_id": "string",
+        "share": "string",
+        "valid_from": "string",
+        "valid_to": "any",
+        "received": "string"
+      }
     }
   }
 }

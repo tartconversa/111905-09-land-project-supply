@@ -42,6 +42,12 @@
       "dataset": "land_consideration",
       "rows": 2,
       "sha256": "9be966ed4dd1de7530e465da4c9dd785bc1b4c81f31f5410e1a30b210380d390"
+    },
+    {
+      "path": "right_transfers.ndjson",
+      "dataset": "right_transfers",
+      "rows": 1,
+      "sha256": "076e7e9fdf533ce487f9747f0ac4c97f10fdb60fab76b8f9e8f6c13037ae6f9c"
     }
   ]
 }
